@@ -1,0 +1,376 @@
+/* Reset some default styles */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scrollbar-width: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+/* Center the navbar links */
+.navbar-nav {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar-nav a:hover{
+    color: #FFBB1C!important;
+}
+
+.navbar-collapse {
+    justify-content: center;
+}
+.navbar{
+    background-color:  #0B9586!important;
+    
+}
+/* Header css style */
+.header{
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 0;
+    position: relative;
+    height: 100vh;
+    
+}
+.bg-image {
+    background-image: url('../images/solar-panels-meadow\ 1.png'); /* Replace with your image URL */
+}
+
+.header h1{
+font-weight: bold;
+
+}
+.pheader{
+    font-size: 18px;
+    margin-top: 20px;
+    
+}
+
+.header .row .sect{
+   margin: 100px 0;
+   padding: 10px;
+}
+.header .btn1{
+    background-color: #0B9586;
+    border: none;
+    border-radius: 10px;
+    margin-top: 13px;
+    color: white;
+    
+    margin-right: 10px;
+  
+}
+.header .btn2{
+    background-color: #FFBB1C;
+    border: none;
+    border-radius: 10px;
+    margin-top: 13px;
+    color: black;
+    
+  
+}
+/* section 2 Friendlist */
+.Friendlist{
+    margin: 80px 0px;
+}
+.sectimage{
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    Width: 469px;
+Height:530px;
+display: flex;
+
+}
+.Friendlist .row h1{
+    font-weight: bold;
+}
+.Friendlist .row p{
+    color:gray;
+    margin-top: 20px;
+    padding: 20px;
+}
+.Friendlist .row ul{
+    margin-top: 40PX;
+}
+.Friendlist .row h5{
+    font-size: 16px;
+    font-weight: bold;
+}
+.Friendlist .row span{
+    color: #0B9586;
+    font-weight: bold;
+}
+
+/* section3 */
+.power {
+    height: 350px; /* Full viewport height */
+    background-image: url('../images/8116\ 1.png'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+.container.h-100 {
+    height: 100%;
+}
+.power .row .content{
+    padding: 50px;
+   text-align: left;
+    
+}
+.power .row .content h3{
+    font-weight: bold;
+   
+
+}
+.power .row .content p{
+    margin-top: 20px;
+
+}
+.power .row .content .btn2{
+    background-color: #FFBB1C;
+    border: none;
+    border-radius: 10px;
+    margin-top: 13px;
+    color: black;
+  
+}
+.power .row .content .btn2:hover{
+    color: inherit;
+}
+/* section4 */
+
+.card {
+
+    border-radius: 8px; 
+    overflow: hidden; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+} 
+.card:hover {
+    transform: scale(1.05); /* Slightly enlarge the card */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Enhance shadow on hover */
+}
+.card-img-top {
+    width: 100%;
+    height: 200px; /* Adjust height as needed */
+    object-fit: cover; /* Cover the area without stretching */
+}
+.heading-solar{
+    color: gray;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: gray;
+}
+.linkkk{
+    color: #0B9586;
+}
+/* section 5 */
+.Repairs {
+    height: 450px;
+    background-image: url('../images/8116\ 1\ \(1\).png'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    display: grid;
+    place-content: center;  
+}
+.contenttt {
+           margin: auto;
+        text-align: center!important;
+        background-color: rgb(23, 23, 23);
+        opacity: 0.8;
+      border-radius:13px;    
+        width: fit-content;
+       max-width: 100%;
+}
+
+.Repairs .row .contenttt h2{
+    padding: 10px;
+}
+/* section 6 */
+.energyy{
+    padding: 30px 0px;
+}
+.content-box {
+   border: 1px solid #0B9586!important;
+   border-radius: 20px;
+   margin-bottom: 10px;
+   transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+  
+}
+.content-box:hover{
+ transform: scale(1.05); 
+box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
+}
+.content-box img {
+    border-radius: 20PX;
+    width: 100%;
+    height: auto;
+    display: block;
+   
+}
+
+.content-box h2 {
+    margin: 10px 10px;
+   
+}
+
+.content-box p {
+    margin: 10px 10px;
+    color: gray;
+   
+}
+.linkkk{
+    color: #0B9586;
+    font-size: 15px;
+    padding: 30px 10px;
+}
+.linkkk i{
+    font-size: 15px;
+}
+.fff{
+    text-align: center;
+    font-size: 50px;
+    color: #0B9586;
+    margin-bottom: 20px;
+}
+.h1section6{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.psection6{
+    font-size: 18px;
+    line-height:25px;
+    color: gray;
+    margin-bottom: 20px!important;
+}
+/* section 7 styling */
+.bordered-div {
+    border: 1px solid #0B9586;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #d9e9e5 ;
+    height: 400px;
+
+   overflow: hidden;
+
+}
+.icon {
+    font-size: 3rem;
+    margin-bottom: 15px;
+    color: #0B9586;
+}
+.values{
+    margin-bottom: 90PX!important;
+}
+.values h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+.values p{
+    font-size: 15px;
+  
+}
+.values .row .bordered-div p{
+    color: gray;
+  
+
+}
+.values .row .bordered-div h2{
+    font-weight: bold;
+}
+/* section 8 styling */
+.section-content {
+    border: 1px solid #ddd;
+    padding: 40px;
+    border-radius: 10px;
+    background-color:#d9e9e5 ;
+    position: relative;
+    
+  
+}
+.section-content h5 {
+    position: relative;
+    z-index: 1;
+}
+.circle-icons {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+.hinbox{
+    color: #0B9586;
+}
+.circle-icons .circle {
+    width: 10px;
+    height: 10px;
+    background-color: gray;
+    border-radius: 50%;
+    margin-bottom: 30px;
+
+}
+.hamza{
+    font-weight: bold;
+}
+.pinsidebox{
+    font-size: 20px;
+    line-height: 30px;
+}
+.quote{
+    font-size: 60px;
+}
+.photo-container .photo-text {
+    flex: 1;
+}
+.caret-icon i{
+    font-size: 30px;
+    color: gray;
+}
+/* footer styling */
+
+
+.footer {
+    padding: 30px;
+    background-color: #283646;
+    border-top: 1px solid #e9ecef;
+
+}
+.ff{
+    color: #0B9586;
+}
+.inp{
+    border-radius: 5px;
+
+}
+.social-media a {
+    color: hsl(0, 0%, 100%);
+    margin-right: 15px;
+    font-size: 24px;
+}
+.social-media a:hover {
+    color: #007bff;
+}
